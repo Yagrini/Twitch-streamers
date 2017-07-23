@@ -1,0 +1,97 @@
+*{margin:0px;}
+body{
+	background-color: #111;
+}
+.container{
+	margin:100px auto;
+	box-shadow: 0px 0px 100px #000;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: solid 4px black;
+}
+h1{
+	font-family: Avantgarde, sans-serif;
+	color:white;
+	margin-left: 10px;
+	font-size: 26pt;
+}
+button{
+	border : 2px #AAA solid;
+	box-shadow: 0 0 4px white;
+	border-radius: 50%;
+	outline: none;
+	height: 40px;
+	width: 40px;
+	font-family: "Andale Mono", monospace;
+	font-size: 12pt;
+	margin-top: 15px;
+}
+button:hover{
+	opacity: 0.9;
+}
+button:active{
+   	opacity: 1;
+}
+.Offline {
+	justify-content: space-between;
+	margin:5px auto;
+	padding : 10px;
+	border : 2px solid #db0000;
+	border-bottom: 5px solid #db0000;
+	border-radius: 3px;
+	font-family: "Andale Mono", monospace;
+	font-size: 11pt;
+}
+.Online{
+	justify-content: space-between;
+	margin: 5px auto;
+	padding: 10px;
+	border:2px solid #78c741;
+	border-bottom:5px solid #78c741;
+	border-radius: 3px;
+	font-family: "Andale Mono", monospace;
+	font-size: 11pt;
+
+}
+.Online img{
+	margin-left: 20px;
+	border:1px solid #78c741;
+	border-radius: 50%;
+	box-shadow: 0px 0px 8px #78c741;
+}
+.Offline img{
+	margin-left: 20px;
+	border:1px solid #db0000;
+	border-radius: 50%;
+	box-shadow: 0px 0px 8px #db0000;
+}
+.div2{
+	margin-top: 10px;
+	color:white;
+}
+.div3{
+	margin-top:17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
